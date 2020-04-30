@@ -1,7 +1,7 @@
 import cv2 # importing computer vision library
 import numpy as np  #importing numerical python library
 
-img = np.ones([250,250,3],dtype = np.uint8) 
+img = np.ones([250,250,3],dtype = np.uint8) * 255
 
 ''' Taking white background image , VERY IMPORTANT to mention dtype as np.uint8,
 by default it will be float64 which wont work for mixing of more than 2 colors'''
